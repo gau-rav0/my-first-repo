@@ -4,7 +4,7 @@ A retro iOS-inspired personal portfolio for Gaurav Bihani.
 
 Built with HTML, CSS and JavaScript. Includes projects, AI content production, sports leadership, intro video, photos, résumé and contact links.
 
-Source and optimized media are in `dist/`. Serve that directory with any static HTTP server; no build step is required.
+The implementation uses a `dist/` directory and needs no build step. The live site and complete source are saved separately; this GitHub repository currently contains documentation only. Publishing personal media and the résumé here is awaiting explicit approval.
 
 Private review deployment: https://gaurav-pocket.goodlypond2.chatgpt.site
 
@@ -26,3 +26,15 @@ SVNIT basketball Vice Captain & Team Lead, powerlifting Team Lead, SPARSH sponso
 - Photos, intro video and résumé: `dist/assets/`
 
 Profile links and project claims come from user-supplied information and repository READMEs. Individual 50K+ views video link is still to be added.
+
+## Interaction update — November 3, 2026
+
+- Classic iPhone-inspired water-droplet wallpaper resets on every fresh visit.
+- Slide-to-unlock screen with clock, date, keyboard support and a skip-to-work shortcut.
+- App entrance animations and reduced-motion support.
+- Optional wallpaper rotation every 20 seconds after unlocking.
+- Manually choosing a wallpaper pauses rotation.
+- Gallery previous/next buttons and horizontal swipe support.
+- Relock control in Settings.
+
+Browser checks passed for unlocking, relocking, automatic rotation, reset after reload, photo paging and a 390px mobile layout. Native touch dragging/swiping has not been tested on a physical phone.
