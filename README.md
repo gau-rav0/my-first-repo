@@ -33,3 +33,7 @@ The complete website, including optimized user-approved personal media and résu
 The desktop layout now centers the phone, with the same full-screen experience on mobile. Natural-language portfolio search runs locally against an index of the supplied information (no AI API or free-form chatbot). Search is available from Home or Ctrl/Cmd+K. Double-click Home or use the app toolbar to open Recent Apps. Notes has three readable entries; Projects has list/detail navigation; Contacts and Photos use dedicated layouts.
 
 Reference: public HTML and shipped JavaScript at https://ishaangoel.in were inspected for OS-style interaction patterns. This portfolio uses an independent implementation and the user’s own assets, not a copy of Ishaan’s source or personal content.
+
+## Shareable routes
+
+Projects support `#projects/fvi`, `#projects/athleteos` and `#projects/msme`, with Copy link and browser Back support. Notes entries use `#notes/about`, `#notes/work` and `#notes/journey`. Photos use `#photos/<photo-id>`. Recent Apps remembers the last route for each app. App fades leave button positions stationary so fast taps work reliably.

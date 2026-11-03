@@ -16,3 +16,7 @@ Native range dragging and gallery swiping use browser pointer interactions; the 
 ## Centered interface update
 
 Verified in desktop Chrome and a 390px responsive frame: natural-language sports and contact searches, Enter-to-open a result, recent apps, double-click Home, project list/detail/back, and Notes tab navigation. The core scripts pass `node --check`. Search uses a local keyword/intent index with factual, predefined results.
+
+## Shareable navigation update
+
+Verified direct FVI/AthleteOS links, project Copy link, toolbar Back, browser Back, Notes entry history, direct photo links, Next photo and return to Camera Roll. FVI direct entry and toolbar Back also passed at 390px. App transitions now fade without moving click targets.
