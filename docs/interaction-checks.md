@@ -12,3 +12,7 @@ Verified in the managed Chrome preview:
 - Camera roll opens photo details; Next advances to the next image.
 
 Native range dragging and gallery swiping use browser pointer interactions; the automated checks exercised keyboard unlocking and photo buttons. Reduced-motion preferences disable decorative animations and crossfades. The lock screen is a visual interaction, not an authentication boundary.
+
+## Centered interface update
+
+Verified in desktop Chrome and a 390px responsive frame: natural-language sports and contact searches, Enter-to-open a result, recent apps, double-click Home, project list/detail/back, and Notes tab navigation. The core scripts pass `node --check`. Search uses a local keyword/intent index with factual, predefined results.
