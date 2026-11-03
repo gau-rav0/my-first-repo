@@ -22,7 +22,7 @@ Starts on a classic iPhone-inspired water-droplet wallpaper at every fresh page 
 ## Links
 
 - GitHub source: https://github.com/gau-rav0/my-first-repo
-- Private portfolio review: https://gaurav-pocket.goodlypond2.chatgpt.site
+- Public portfolio: https://gaurav-pocket.goodlypond2.chatgpt.site
 
 ![Retro iPhone portfolio preview](docs/preview.jpg)
 
